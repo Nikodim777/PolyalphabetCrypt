@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1568118519 source:c:\users\я\desktop\Данные\Учёба\3 курс\ИБ САПР\polyalphabet\main.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<commdlg.h>
+	"Polyalphabet.h"
+	"resources.h"
+
+1568116264 source:c:\users\я\desktop\Данные\Учёба\3 курс\ИБ САПР\polyalphabet\polyalphabet.cpp
+	<windows.h>
+	<stdio.h>
+
+1568114770 source:c:\users\я\desktop\Данные\Учёба\3 курс\ИБ САПР\polyalphabet\resources.rc
+	"resources.h"
+
+1568114770 c:\users\я\desktop\Данные\Учёба\3 курс\ИБ САПР\polyalphabet\resources.h
+	<windows.h>
+
+1567722205 c:\users\я\desktop\Данные\Учёба\3 курс\ИБ САПР\polyalphabet\polyalphabet.h
+

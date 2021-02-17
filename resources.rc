@@ -1,0 +1,33 @@
+#include "resources.h"
+
+M_ICON16 ICON "Lock16.ico"
+M_ICON32 ICON "Lock32.ico"
+ID_MENU  MENU
+{
+    POPUP "Файл"
+    {
+        MENUITEM "Открыть файл",ID_OPEN
+        MENUITEM "Выход",ID_EXIT
+    }
+    POPUP "Действия"
+    {
+        MENUITEM "За/Дешифровать",ID_ENCRYPTION
+        MENUITEM "Сменить режим",ID_CHANGE
+    }
+    POPUP "Помощь"
+    {
+        MENUITEM "Горячие клавиши",ID_HOTHELP
+        MENUITEM "О методе",ID_ABOUTM
+        MENUITEM "О программе",ID_ABOUTP
+    }
+}
+ID_ACCEL ACCELERATORS
+{
+    "^o",ID_OPEN
+    "^q",ID_EXIT
+    "^e",ID_ENCRYPTION
+    "^w",ID_CHANGE
+    "^h",ID_HOTHELP
+    "^m",ID_ABOUTM
+    "^p",ID_ABOUTP
+}
